@@ -18,7 +18,7 @@ button{
 	border-color: #CF77D5;
 	cursor: pointer ;
     transition: all 0.7s ease-in-out;
-    margin-left: 330px;
+    margin-left: 100px;
     font-family: Verdana;
 }
 button:hover{
