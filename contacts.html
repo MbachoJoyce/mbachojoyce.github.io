@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>personal portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<script type="text/javascript" src="home.js"></script>
+	
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="services.html">SERVICES</a>
+        <a href="contacts.html">CONTACTS</a>
+    </div>
+    <div class="contain">
+
+        <h3>Contacts</h3>
+        <p>I’d love to hear from you! Whether you have a project in mind, need tech support,
+            or just want to say hello, feel free to reach out. I’m here to help with any of 
+            your development needs. Let’s connect and make something great together!</p>
+
+            <form action="https://formsubmit.co/mbachojoyce0@gmail.com" method="POST">
+            <div>
+            <label for="name">name</label>  
+            <input type="text" id="name">      
+                </div>
+                 <div>
+            <label for="email">email</label>  
+            <input type="text" id="email">      
+                </div>
+            <div class="fullwidth">
+                <label for="message">message</label>
+                <textarea name="message" id="message"></textarea>
+            </div>  
+            <div class="form-btn">
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+            </div>                                   
+            </form>
+
+            <button id="bn" onclick="toggleContacts()">GET CONTACT INFORMATION</button>
+                <div id="contacts" style="display: none;">
+                <p<h4>Social Media:</h4>
+           Stay connected and follow my work on:
+           
+            <br> LinkedIn: 
+            <br> GitHub: <a href="https://github.com/MbachoJoyce">my github</a>
+            </div>
+      
+    </div>
+</body>
+</html>
